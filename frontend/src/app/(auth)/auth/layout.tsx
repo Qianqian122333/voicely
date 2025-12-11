@@ -19,7 +19,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
               <div className="borderbackdrop-blur-sm flex h-12 w-12 items-center justify-center rounded-xl">
                 <Sparkles className="h-7 w-7" />
               </div>
-              <span className="text-2xl font-bold">AI Voice Studio</span>
+              <span className="text-2xl font-bold">Voicely</span>
             </Link>
 
             {/* Hero Content */}
@@ -99,7 +99,7 @@ export default function AuthLayout({ children }: { children: ReactNode }) {
                 <div className="flex h-10 w-10 items-center justify-center rounded-lg">
                   <Sparkles className="h-6 w-6" />
                 </div>
-                <span className="text-xl font-bold">AI Voice Studio</span>
+                <span className="text-xl font-bold">Voicely</span>
               </Link>
             </div>
 
