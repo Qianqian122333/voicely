@@ -15,6 +15,10 @@ import {
 import { type Metadata } from "next";
 import BreadcrumbPageClient from "~/components/sidebar/breadcrumb-page-client";
 import AppSidebar from "~/components/sidebar/app-sidebar";
+// =======================================================
+// ** 解决 Dynamic Server Usage 错误的关键配置 **
+// =======================================================
+export const dynamic = "force-dynamic";
 export const metadata: Metadata = {
   title: "AI Voice Studio",
   description: "AI Voice Studio - Transform text into natural speech",
